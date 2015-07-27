@@ -1,0 +1,31 @@
+teams:
+  A:
+    name: Team A
+    rookie: true
+  B:
+    name: Team B
+    rookie: true
+  C:
+    name: Team C
+    rookie: true
+  D:
+    name: Team D
+    rookie: true
+  E:
+    name: Team E
+    rookie: true
+  F:
+    name: Team F
+    rookie: true
+  G:
+    name: Team G
+    rookie: true
+  H:
+    name: Team H
+    rookie: true
+  I:
+    name: Team I
+    rookie: true
+  J:
+    name: Team J
+    rookie: true

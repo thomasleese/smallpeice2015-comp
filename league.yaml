@@ -1,0 +1,31 @@
+matches:
+  0:
+    main: [I, H, C, D]
+  1:
+    main: [E, B, A, F]
+  2:
+    main: [C, D, G, J]
+  3:
+    main: [I, H, E, B]
+  4:
+    main: [F, J, A, G]
+  5:
+    main: [H, B, D, I]
+  6:
+    main: [G, J, E, F]
+  7:
+    main: [D, I, C, A]
+  8:
+    main: [E, F, H, B]
+  9:
+    main: [G, C, J, A]
+  10:
+    main: [B, I, E, D]
+  11:
+    main: [G, H, F, C]
+  12:
+    main: [B, I, A, J]
+  13:
+    main: [E, D, F, C]
+  14:
+    main: [H, G, J, A]
