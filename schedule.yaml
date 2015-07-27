@@ -40,6 +40,8 @@ knockout:
   round_spacing: 300 # Delay between knockout rounds
   final_delay: 300   # Extra delay before the finals
 
+  static: true
+
   single_arena:
     rounds: 5
     arenas:
@@ -50,22 +52,22 @@ static_knockout:
     0:
       arena: main
       start_time: 2015-07-31 13:10:00 +1
-      teams: [A, B, C, D]
+      teams: [S3, S5, S8, S10]
     1:
       arena: main
       start_time: 2015-07-31 13:22:00 +1
-      teams: [E, F, G, H]
+      teams: [S4, S6, S7, S9]
   1:
     0:
       arena: main
       start_time: 2015-07-31 13:34:00 +1
-      teams: [A, B, C, D]
+      teams: [S2, '000', '002', '011']
     1:
       arena: main
       start_time: 2015-07-31 13:46:00 +1
-      teams: [E, F, G, H]
+      teams: [S1, '001', '010', '012']
   2:
     0:
       arena: main
       start_time: 2015-07-31 14:00:00 +1
-      teams: [A, B, C, D]
+      teams: ['100', '101', '110', '111']
