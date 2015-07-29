@@ -30,11 +30,7 @@ match_periods:
 tiebreaker: 2015-07-31 14:30:00 +1
 
 league:
-  # Extra spacing which appears before (almost) everyone's first match
-  # Matches which fall at the start of their period are ignored
-  extra_spacing:
-  - match_numbers: 0-6
-    duration: 300
+  extra_spacing: 0
 
 knockout:
   round_spacing: 300 # Delay between knockout rounds
