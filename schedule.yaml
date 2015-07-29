@@ -1,69 +1,78 @@
-match_slot_lengths:
-  pre: 90
-  match: 180
-  post: 30
-  total: 300
-
-staging:
-  opens: 300
-  closes: 120
-  duration: 180
-  signal_shepherds: 240
-  signal_teams: 240
-
-timezone: Europe/London
-
 delays: []
-
-match_periods:
-  league:
-  - start_time: 2015-07-31 10:45:00 +1
-    end_time: 2015-07-31 12:30:00 +1
-    max_end_time: 2015-07-31 12:45:00 +1
-    description: League
-
-  knockout:
-  - start_time: 2015-07-31 13:00:00 +1
-    end_time: 2015-07-31 14:15:00 +1
-    description: Knockout
-
-tiebreaker: 2015-07-31 14:30:00 +1
-
-league:
-  extra_spacing: 0
-
 knockout:
-  round_spacing: 300 # Delay between knockout rounds
-  final_delay: 300   # Extra delay before the finals
-
-  static: true
-
+  final_delay: 300
+  round_spacing: 300
   single_arena:
-    rounds: 5
     arenas:
     - main
-
+    rounds: 5
+  static: true
+league:
+  extra_spacing: 0
+match_periods:
+  knockout:
+  - description: Knockout
+    end_time: 2015-07-29 22:06:00+01:00
+    start_time: 2015-07-29 20:51:00+01:00
+  league:
+  - description: League
+    end_time: 2015-07-29 20:21:00+01:00
+    max_end_time: 2015-07-29 20:36:00+01:00
+    start_time: 2015-07-29 18:36:00+01:00
+match_slot_lengths:
+  match: 180
+  post: 30
+  pre: 90
+  total: 300
+staging:
+  closes: 120
+  duration: 180
+  opens: 300
+  signal_shepherds: 240
+  signal_teams: 240
 static_knockout:
   0:
     0:
       arena: main
-      start_time: 2015-07-31 13:10:00 +1
-      teams: [S3, S5, S8, S10]
+      start_time: 2015-07-31 13:10:00+01:00
+      teams:
+      - S3
+      - S5
+      - S8
+      - S10
     1:
       arena: main
-      start_time: 2015-07-31 13:22:00 +1
-      teams: [S4, S6, S7, S9]
+      start_time: 2015-07-31 13:22:00+01:00
+      teams:
+      - S4
+      - S6
+      - S7
+      - S9
   1:
     0:
       arena: main
-      start_time: 2015-07-31 13:34:00 +1
-      teams: [S2, '000', '002', '011']
+      start_time: 2015-07-31 13:34:00+01:00
+      teams:
+      - S2
+      - '000'
+      - '002'
+      - '011'
     1:
       arena: main
-      start_time: 2015-07-31 13:46:00 +1
-      teams: [S1, '001', '010', '012']
+      start_time: 2015-07-31 13:46:00+01:00
+      teams:
+      - S1
+      - '001'
+      - '010'
+      - '012'
   2:
     0:
       arena: main
-      start_time: 2015-07-31 14:00:00 +1
-      teams: ['100', '101', '110', '111']
+      start_time: 2015-07-31 14:00:00+01:00
+      teams:
+      - '100'
+      - '101'
+      - '110'
+      - '111'
+tiebreaker: 2015-07-31 14:30:00+01:00
+timezone: Europe/London
