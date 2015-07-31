@@ -1,31 +1,23 @@
 matches:
   0:
-    main: [I, H, C, D]
+    main: [T09, T08, T03, T04]
   1:
-    main: [E, B, A, F]
+    main: [SUP, T02, T01, T06]
   2:
-    main: [C, D, G, J]
+    main: [T03, T04, T07, T10]
   3:
-    main: [I, H, E, B]
+    main: [T09, T08, T05, SUP]
   4:
-    main: [F, J, A, G]
+    main: [T06, T10, T01, T07]
   5:
-    main: [H, B, D, I]
+    main: [T08, T02, T04, T09]
   6:
-    main: [G, J, E, F]
+    main: [T07, T10, T05, T06]
   7:
-    main: [D, I, C, A]
+    main: [SUP, T09, T03, T01]
   8:
-    main: [E, F, H, B]
+    main: [T05, T06, T08, T02]
   9:
-    main: [G, C, J, A]
+    main: [T07, T03, T10, T01]
   10:
-    main: [B, I, E, D]
-  11:
-    main: [G, H, F, C]
-  12:
-    main: [B, I, A, J]
-  13:
-    main: [E, D, F, C]
-  14:
-    main: [H, G, J, A]
+    main: [T02, SUP, T05, T04]

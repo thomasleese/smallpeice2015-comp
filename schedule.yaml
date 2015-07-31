@@ -17,17 +17,15 @@ delays: []
 
 match_periods:
   league:
-  - start_time: 2015-07-31 10:45:00 +1
+  - start_time: 2015-07-31 11:30:00 +1
     end_time: 2015-07-31 12:30:00 +1
-    max_end_time: 2015-07-31 12:45:00 +1
+    max_end_time: 2015-07-31 12:30:00 +1
     description: League
 
   knockout:
   - start_time: 2015-07-31 13:00:00 +1
     end_time: 2015-07-31 14:15:00 +1
     description: Knockout
-
-tiebreaker: 2015-07-31 14:30:00 +1
 
 league:
   extra_spacing: 0
